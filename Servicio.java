@@ -85,7 +85,7 @@ public class Servicio {
         switch (aux) {
             case 0:
                 System.out.println("");
-                System.out.println("No se encontraron letras (" + letra + ") en la palabra");
+                System.out.println("No se encontraron letrass (" + letra + ") en la palabra");
 
                 System.out.println("");
                 intentos(a, aux);
@@ -118,7 +118,7 @@ public class Servicio {
             System.out.print("[" + a[i] + "] ");
         }
         System.out.println("");
-
+//
     }
 
     private void intentos(Ahorcado a, int aux) {
